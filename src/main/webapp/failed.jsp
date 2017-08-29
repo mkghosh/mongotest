@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h1>Connection Failed</h1>
+	<p> <%= session.getAttribute("msg") %>
 </body>
 </html>
